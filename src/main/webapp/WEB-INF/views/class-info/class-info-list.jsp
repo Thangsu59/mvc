@@ -18,7 +18,7 @@
 	<table border="1">
 		<tr>
 			<th>번호</th>
-			<th>이름</th>
+			<th>이름</th> 
 			<th>설명</th>
 		</tr>
 		
