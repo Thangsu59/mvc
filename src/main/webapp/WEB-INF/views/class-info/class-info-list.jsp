@@ -12,19 +12,18 @@
 <body>
 
 	<h3>난 강의 리스트</h3>
+	<%
+	List<Map<String,String>> classInfoList=(List<Map<String,String>>)request.getAttribute("classInfoList");
+	%>
 	<table border="1">
 		<tr>
 			<th>번호</th>
 			<th>이름</th>
 			<th>설명</th>
 		</tr>
-	<%
-	List<Map<String,String>> classInfoList=(List<Map<String,String>>)request.getAttribute("classInfoList");
-	%>
-	<tr>
-		<th><%=classInfo.get("ciNum") %></th>
-		<
-	</tr>
+		
+	
+	
 	
 	</table>
 </body>
