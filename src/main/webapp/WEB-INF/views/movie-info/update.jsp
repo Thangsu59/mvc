@@ -8,7 +8,7 @@
 </head>
 <body>
 <form action="/movie-info/update" method="POST">
-	<input type="hidden" name="miNum" value="${movieInfo.miNum }">
+	<input type="hidden" name="miNum" value="${movieInfo.miNum}">
 	<input type="text" name="miTitle" placeholder="제목" value="${movieInfo.miTitle}"><br>
 	<input type="text" name="miDesc" placeholder="설명" value="${movieInfo.miDesc}"><br>
 	<input type="text" name="miGenre" placeholder="장르" value="${movieInfo.miGenre}"><br>
